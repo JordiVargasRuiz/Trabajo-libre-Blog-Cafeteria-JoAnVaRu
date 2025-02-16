@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlogDeCafé</title>
+    <title>Slide &amp; Pick</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -15,11 +15,13 @@
         <div class="contenedor">
             <div class="barra">
                 <a class="logo" href="index.html">
-                    <h1 class="logo__nombre no-margin centrar-texto">Café<span class="logo__bold">JoAnVaRu</span></h1>
+                    <h1 class="logo__nombre no-margin centrar-texto">Slide &&nbsp;<span class="logo__bold">Pick</span></h1>
                 </a>
 
                 <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
                     <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="noticias.html" class="navegacion__enlace">Noticias</a>
                     <a href="cursos.html" class="navegacion__enlace">Cursos</a>
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
@@ -27,67 +29,99 @@
         </div>
 
         <div class="header__texto">
-            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
-            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+            <h2 class="no-margin">Blog de Guitarra con Noticias, Consejos y Cursos</h2>
+            <p class="no-margin">Mantente al día con las últimas novedades, aprende de los expertos y mejora tu técnica con los mejores trucos y lecciones</p>
         </div>
     </header>
 
     <main class="contenedor">
         <h3 class="centrar-texto">Nuestros Próximos Cursos y Talleres</h3>
 
-        <div class="curso">
+        <div class="curso" id = "principiantes">
             <div class="curso__imagen">
                 <img src="img/curso1.jpg" alt="Imagen del curso">
             </div>
             <div class="curso__informacion">
-                <h4 class="no-margin">Técnicas de extracción de café</h4>
+                <h4 class="no-margin">Curso para Principiantes</h4>
                 <p class="curso__label">Precio: 
-                    <span class="curso__info">Gratis</span>
+                    <span class="curso__info">$30 USD</span>
                 </p>
                 <p class="curso__label">Cupo: 
-                    <span class="curso__info">20</span>
+                    <span class="curso__info">20 estudiantes</span>
                 </p>
-                <p class="curso__descripcion">
-                    La extracción del café es un arte que influye directamente en el sabor y la calidad de la bebida. Existen varias técnicas que permiten extraer los sabores del grano de manera distinta. La moka es una de las más tradicionales, utilizando presión para extraer el café a través de un filtro, resultando en un sabor fuerte y concentrado. El espresso, preparado bajo alta presión con un café finamente molido, produce una bebida densa y rica en sabor. La prensa francesa utiliza un filtro de metal y permite una extracción más lenta, ofreciendo un café con cuerpo y una textura más rica. El goteo, popular en cafeteras automáticas, permite una extracción uniforme y suave, ideal para quienes prefieren un café ligero. Por último, el cold brew, que utiliza agua fría y una larga extracción, resulta en un café suave y menos ácido, perfecto para días calurosos. Cada técnica resalta diferentes aspectos del grano, brindando una variedad de experiencias para los amantes del café.
+                <p class="curso__label">Duración del curso: 
+                    <span class="curso__info">4 semanas</span>
+                </p>
+                <p class="curso__label">Descripción del curso:
+                    <p>Este curso está diseñado para quienes desean dar sus primeros pasos en el mundo de la guitarra. Aprenderás desde lo más básico, como la postura correcta y el uso de la púa, hasta tocar tus primeras canciones con acordes sencillos. Es un curso práctico que te permitirá adquirir confianza y desarrollar una base sólida para continuar tu aprendizaje.
+                        <p class="curso__label">Lo que aprenderás:</p>
+                        <p>✔️ Conocimiento básico de la guitarra y sus partes.
+                            ✔️ Postura correcta y técnicas básicas de digitación.
+                            ✔️ Acordes abiertos y cambios entre ellos.
+                            ✔️ Rasgueos básicos y patrones rítmicos esenciales.<br>
+                            ✔️ Lectura de tablaturas y diagramas de acordes.
+                            ✔️ Interpretación de canciones sencillas.</p>
+                    </p>
                 </p>
             </div>
         </div> 
 
-        <div class="curso">
+        <div class="curso" id = "intermedios">
             <div class="curso__imagen">
                 <img src="img/curso2.jpg" alt="Imagen del curso">
             </div>
             <div class="curso__informacion">
-                <h4 class="no-margin">Taller para Tostar y Moler Granos</h4>
+                <h4 class="no-margin">Curso para Nivel Intermedio</h4>
                 <p class="curso__label">Precio: 
-                    <span class="curso__info">Gratis</span>
+                    <span class="curso__info">$45 USD</span>
                 </p>
                 <p class="curso__label">Cupo: 
-                    <span class="curso__info">20</span>
+                    <span class="curso__info">15 estudiantes</span>
                 </p>
-                <p class="curso__descripcion">
-                    En este taller, aprenderás las técnicas esenciales para tostar y moler granos de café de manera artesanal, mejorando la calidad y el sabor de tu café en casa. Comenzaremos con una introducción al proceso de tostado, donde descubrirás cómo los diferentes niveles de tostado (ligero, medio y oscuro) afectan el sabor final. Te enseñaremos a tostar granos de café utilizando diferentes métodos, como el tostado en sartén o en máquina de tostar, para obtener un perfil de sabor único. Luego, pasaremos al proceso de molienda, en el cual conocerás los distintos tipos de molienda (fina, media y gruesa) y cómo cada uno influye en la extracción del café. Además, aprenderás a elegir el molido adecuado según la técnica de preparación que prefieras, como el espresso, la prensa francesa o el goteo. Al final del taller, habrás adquirido los conocimientos necesarios para tostar y moler tu propio café, brindándote una experiencia más fresca y personalizada en cada taza.
+                <p class="curso__label">Duración: 
+                    <span class="curso__info">6 semanas</span>
+                </p>
+                <p class="curso__label">Descripción del curso:
+                    <p>Este curso está dirigido a aquellos que ya tienen conocimientos básicos y quieren llevar su interpretación al siguiente nivel. Aprenderás técnicas más avanzadas, progresiones de acordes más complejas y cómo aplicar escalas en tu ejecución. También trabajarás en mejorar la fluidez al tocar y en el desarrollo de un estilo propio.
+                        <p class="curso__label">Lo que aprenderás:</p>
+                        <p class="curso_label">✔️ Dominio de los acordes de cejilla y progresiones armónicas.
+                            ✔️ Técnicas de rasgueo avanzadas y arpegios.
+                            ✔️ Introducción a la escala mayor y menor.
+                            ✔️ Construcción de riffs y patrones rítmicos.
+                            ✔️ Improvisación básica y fraseo melódico.
+                            ✔️ Lectura y ejecución de tablaturas más avanzadas.</p>
+                    </p>
                 </p>
             </div>
-        </div>
+        </div> 
 
-        <div class="curso">
+        <div class="curso" id = "avanzados">
             <div class="curso__imagen">
                 <img src="img/curso3.jpg" alt="Imagen del curso">
             </div>
             <div class="curso__informacion">
-                <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                <h4 class="no-margin">Curso para Nivel Avanzado</h4>
                 <p class="curso__label">Precio: 
-                    <span class="curso__info">Gratis</span>
+                    <span class="curso__info">$60 USD</span>
                 </p>
                 <p class="curso__label">Cupo: 
-                    <span class="curso__info">20</span>
+                    <span class="curso__info">10 estudiantes</span>
                 </p>
-                <p class="curso__descripcion">
-                    Si eres nuevo en el mundo del café y te gustaría experimentar con diferentes sabores y métodos de preparación, aquí te traemos 4 recetas ideales para empezar. Cada una de estas opciones es fácil de hacer y no requiere equipos especiales ni experiencia previa. Desde un café suave y dulce hasta uno más robusto, podrás disfrutar de una variedad de opciones mientras perfeccionas tus habilidades. Estas recetas están diseñadas para enseñarte lo básico de la preparación del café de una manera divertida y accesible. Atrévete a probarlas y conviértete en un experto en poco tiempo.
+                <p class="curso__label">Duración: 
+                    <span class="curso__info">8 semanas</span>
+                </p>
+                <p class="curso__label">Descripción del curso:
+                    <p>Este curso está diseñado para músicos que desean dominar la guitarra a un nivel profesional. Aprenderás técnicas avanzadas, teoría musical aplicada y estrategias para improvisar y componer solos. También te adentrarás en la ejecución de diversos géneros musicales y desarrollarás habilidades para tocar con fluidez y precisión.
+                        <p class="curso__label">Lo que aprenderás:</p>
+                        <p class="curso_label">✔️ Técnicas avanzadas: hammer-ons, pull-offs, slides, bends y tapping.
+                            ✔️ Improvisación en diferentes escalas y modos griegos.
+                            ✔️ Composición de solos y desarrollo de estilo propio.
+                            ✔️ Técnicas rítmicas avanzadas y polirritmia.
+                            ✔️ Dominio del diapasón y construcción de progresiones armónicas.</p>
+                    </p>
                 </p>
             </div>
-        </div>
+        </div> 
 
         
     </main>
@@ -96,7 +130,7 @@
         <div class="contenedor">
             <div class="barra">
                 <a class="logo" href="index.html">
-                    <h1 class="logo__nombre no-margin centrar-texto">Café<span class="logo__bold">JoAnVaRu</span></h1>
+                    <h1 class="logo__nombre no-margin centrar-texto">Slide &&nbsp;<span class="logo__bold">Pick</span></h1>
                 </a>
 
                 <nav class="navegacion">
